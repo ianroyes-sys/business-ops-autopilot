@@ -1,0 +1,5 @@
+{ "leads": [
+  { "name": "Harbor Bakery", "email": "owner@harbor-bakery.example", "url": "https://harbor-bakery.example", "status": "drafted" },
+  { "name": "Elm Street Gym", "email": "hello@elmstreetgym.example", "url": "https://elmstreetgym.example", "status": "drafted" },
+  { "name": "Riverside Dental", "email": "front@riverside-dental.example", "status": "new" }
+] }

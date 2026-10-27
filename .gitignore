@@ -1,0 +1,15 @@
+node_modules/
+.next/
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+__pycache__/
+# Private state: queue, CSV inputs, reports, receipts, monitors, heartbeat.
+data/business-ops/
+# Real registries and sales records stay local; only *.sample.json and data/example/ are committed.
+data/*.json
+!data/*.sample.json
+data/*.jsonl
+STOP

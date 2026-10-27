@@ -1,0 +1,14 @@
+{
+  "name": "business-ops-autopilot",
+  "version": "1.0.0",
+  "description": "Deterministic local job queue that runs recurring business operations through fixed adapters and surfaces exceptions.",
+  "type": "module",
+  "bin": { "business-ops": "scripts/business-ops.mjs" },
+  "engines": { "node": ">=20.11" },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node scripts/demo.mjs",
+    "status": "node scripts/business-ops.mjs status",
+    "tick": "node scripts/business-ops.mjs tick"
+  }
+}

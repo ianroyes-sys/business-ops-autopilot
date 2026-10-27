@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-01-15",
+  "ownerPreference": "Owner handles meetings; automate repeatable operations and surface exceptions.",
+  "businesses": [
+    { "id": "agentproof", "name": "AgentProof", "fit": "Strong for website evidence reports", "operation": "Read a public website and produce a source-linked audit report.", "human": "Buyer meetings, disputed findings, custom remediation scope.", "limits": "Report automation only; sales, payment and customer delivery are not connected.", "rank": 1 },
+    { "id": "native-supply", "name": "Native Supply", "fit": "Strong for standard digital downloads", "operation": "Check catalog products against packaged download archives before fulfillment.", "human": "Product rights, unusual support, custom work.", "limits": "Local integrity checks do not verify live payment setup.", "rank": 2 },
+    { "id": "baylift", "name": "BayLift", "fit": "Strong for the CSV audit service", "operation": "Turn a declined-work CSV into a reconciled audit and report.", "human": "One authorized export, shop decisions and customer meetings.", "limits": "A CSV is not a shop integration; declined value is not recovered revenue.", "rank": 3 },
+    { "id": "sales-pipeline", "name": "Sales pipeline", "fit": "Partial; repeatable sales preparation", "operation": "Prepare the open-deal meeting handoff and expose outreach blockers.", "human": "Meetings, bespoke scope, signed permissions.", "limits": "Preparation only. This worker never sends email.", "rank": 4 },
+    { "id": "arsenal-index", "name": "Arsenal Index", "fit": "Strong for bounded data reports", "operation": "Verify a local data snapshot and prepare table exports daily.", "human": "Source freshness exceptions and customer interpretation.", "limits": "No automatic data refresh, payment or delivery.", "rank": 5 }
+  ],
+  "recurring": [
+    { "business": "native-supply", "cadence": "daily", "kind": "fulfillment-check", "label": "Daily catalog fulfillment check" },
+    { "business": "sales-pipeline", "cadence": "daily", "kind": "pipeline-prep", "label": "Daily sales and meeting preparation" },
+    { "business": "arsenal-index", "cadence": "daily", "kind": "snapshot-report", "label": "Daily snapshot verification" }
+  ]
+}

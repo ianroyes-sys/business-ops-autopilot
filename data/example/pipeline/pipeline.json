@@ -1,0 +1,4 @@
+{ "deals": [
+  { "name": "Harbor Bakery", "stage": "awaiting", "value": "$1,500 + $99/mo", "note": "Demo sent; waiting on owner feedback.", "moved": "2026-01-08" },
+  { "name": "Northside Climbing", "stage": "won", "value": "$1,500 + $99/mo", "moved": "2025-12-01" }
+] }

@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-01-15",
+  "businesses": [
+    { "id": "agentproof", "name": "AgentProof", "fit": "strong", "currentOperation": "Bounded public-site evidence reports run from a URL.", "humanWork": "Sales meeting and disputed findings.", "blocker": "No payment or delivery integration.", "recommendation": "Run a paid pilot before automating intake." },
+    { "id": "example-internal", "name": "Example internal tool", "fit": "internal", "currentOperation": "Used by the owner only.", "humanWork": "All of it.", "blocker": "Not a business.", "recommendation": "Keep internal." }
+  ]
+}
